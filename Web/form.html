@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      function check() {
+        var email1 = document.getElementById("email_addr");
+        var email2 = document.getElementById("email_repeat");
+        if (email1.value != email2.value) {
+          alert("The two emails must match");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- <label
+      >Preferred Email address:
+      <input
+        type="email"
+        id="email_addr"
+        name="email"
+        placeholder="email"
+        required
+      /> </label
+    ><br />
+    <label>
+      Repeat email Address:
+      <input
+        type="email"
+        id="email_repeat"
+        name="soji.com"
+        required
+        onchange="check()"
+      />
+    </label>
+    <br />
+    <input type="submit" value="confirm Emails" onclick="return check();" />
+   -->
+    <input type="radio" name="food" value="pizza" />pizza
+    <br />
+    <input type="radio" name="food" value="kola" /> Kola<br />
+    <input type="radio" name="food" value="rice" checked="true" /> Rice<br />
+    <input type="radio" name="food" value="beans" /> Beans<br />
+  </body>
+</html>

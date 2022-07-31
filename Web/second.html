@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      // var x = "Hello";
+      // welcome(x);
+      // function welcome(Msg) {
+      //   alert(Msg);
+      // }
+      // x = "goodbye";
+
+      // welcome(x);
+      // function welcome(bye) {
+      //   alert(bye);
+      // }
+
+      // x = "Goodbye";
+      // welcomeMsg(x);
+
+      // exapmle 2
+
+      // var firstName = welcomeMsg("hi");
+      // function welcomeMsg(msg) {
+      //   alert(msg);
+      //   var name = prompt("What is your name");
+      //   return name;
+      // }
+
+      // document.write("hello world");
+      // alert("hello world");
+      // var x = "ore";
+      // welcome(x);
+      // function welcome(display) {
+      //   alert(display);
+      // }
+
+      // one
+      // function message(msg) {
+      //   document.getElementById("output").innerHTML = msg + "event";
+      // }
+
+      // two
+      // function displayDate() {
+      //   document.getElementById("demo").innerHTML = Date();
+      // }
+    </script>
+  </head>
+  <!-- <body onload="message('LOAD')" onresize="message('RESIZE')">
+    <h1>java script event</h1>
+    <p onclick="message('CLICK')">
+      It is possible to call functions based on events
+    </p>
+    <p>
+      Click on paragraph above to trigger on <em>onclick </em>event. reload the
+      page to see on onload event
+    </p>
+    \
+    <p id="output"></p>
+  </body> -->
+  <body>
+    <!-- <p id="demo">
+      <button onclick="displayDate()">display date</button>
+    </p> -->
+    <button
+      onclick="document.getElementById('one').innerHTML = 'Click first button';"
+    >
+      first
+    </button>
+    <button
+      onclick="document.getElementById('one').innerHTML = 'Click second button';"
+    >
+      second
+    </button>
+
+    <p>this code can't change</p>
+    <p id="one">this will change</p>
+    <p>this can not change</p>
+  </body>
+</html>
