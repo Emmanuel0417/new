@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Try Me</button>
+    <script>
+      // var fruits = ["mango", "banana", "apple", "lemon", "cashew"];
+      // var fruit = fruits[fruits.length - 1];
+      // document.getElementById("demo").innerHTML = fruit;
+
+      // var fruits = ["mango", "banana", "apple", "lemon", "cashew"];
+      // document.getElementById("demo").innerHTML = fruit[fruits];
+      // function myFunction() {
+      //   fruits.push("lemon");
+      //   document.getElementById("demo").innerHTML = fruits;
+      // }
+
+      // var person = [];
+      // person[0] = "John";
+      // person[1] = "doe";
+      // person[3] = 46;
+      // document.getElementById("demo").innerHTML =
+      //   person[1] + "" + person.length;
+
+      // var d;
+      // d = new Date();
+      // document.getElementById("demo").innerHTML = d.toDateString();
+
+      // var msec = new Date();
+      // document.getElementById("demo").innerHTML = msec.getMonth();
+
+      // var d = new Date();
+      // var days = [
+      //   "Sunday",
+      //   "Monday",
+      //   "Tuesday",
+      //   "Wednesday",
+      //   "Thursday",
+      //   "Friday",
+      //   "Saturday",
+      // ];
+      // document.getElementById("demo").innerHTML = Math.floor(Math.random() * 9);
+      // function myFunction() {
+      //   document.getElementById("demo").innerHTML = Boolean(10 < 9);
+      var b1 = Boolean(100);
+      var b2 = Boolean(3.14);
+      var b3 = Boolean(-15);
+      var b4 = Boolean("Hello");
+      var b5 = Boolean("false");
+      var b6 = Boolean(1 + 7 + 3.14);
+
+      document.getElementById("demo").innerHTML =
+        "100 is " +
+        b1 +
+        "<br>" +
+        "3.14 is " +
+        b2 +
+        "<br>" +
+        "-15 is " +
+        b3 +
+        "<br>" +
+        "Any (not empty) string is " +
+        b4 +
+        "<br>" +
+        "Even the string 'false' is " +
+        b5 +
+        "<br>" +
+        "Any expression (except zero) is " +
+        b6;
+      // }
+    </script>
+  </body>
+</html>

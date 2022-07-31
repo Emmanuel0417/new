@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function myfunction() {
+        document.getElementById("paragraph").innerHTML = "new paragraph";
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Date
+    </button>
+    <p id="demo"></p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('greet').innerHTML='Hello, good morning'"
+    >
+      Greet Me
+    </button>
+    <p id="greet">hello Javascript</p>
+
+    <button
+      onclick="document.getElementById('Image').src='pictures/on_bulb.gif'"
+    >
+      ON BULB
+    </button>
+    <img id="Image" src="pictures/off_bulb.gif" />
+    <button
+      onclick="document.getElementById('Image').src='pictures/off_bulb.gif'"
+    >
+      OFF BULB
+    </button>
+
+    <h1>Style</h1>
+
+    <p id="text">I am a winner everyday and everytime</p>
+    <button
+      onclick="document.getElementById('text').style.backgroundColor='lightpink'"
+    >
+      click here to change
+    </button>
+    <h3>using function</h3>
+
+    <p id="paragraph">this will change</p>
+    <button onclick="myfunction()">change</button>
+  </body>
+</html>
